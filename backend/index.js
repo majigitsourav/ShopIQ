@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(cors({
-    origin:["https://shopiq-frontend.onrender.com","http://localhost:5174"],
+    origin:["https://shopiq-frontend.onrender.com","https://shopiq-admin.onrender.com"],
     credentials:true
 }));
 
