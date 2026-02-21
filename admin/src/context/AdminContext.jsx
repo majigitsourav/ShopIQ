@@ -3,7 +3,7 @@ import { createContext } from 'react';
 export const adminDataContext = createContext();
 import { useState } from 'react';
 import { useContext } from 'react';
-import { authDataContext } from './authContext';
+import { authDataContext } from './AuthContext';
 import axios from 'axios';
 
 const AdminContext = ({children}) => {
