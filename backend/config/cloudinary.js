@@ -37,4 +37,3 @@ const uploadOnCloudinary = async (fileBuffer) => {
 export default uploadOnCloudinary;
 
 
-export default uploadOnCloudinary;
