@@ -1,5 +1,6 @@
-import express from 'express';
 import dotenv from 'dotenv';
+dotenv.config()
+import express from 'express';
 import connectDb from './config/db.js';
 import cookieParser from 'cookie-parser';
 import authRoutes from './routes/authRoutes.js';
@@ -9,7 +10,7 @@ import productRoutes from './routes/productRoutes.js';
 import cartRoutes from './routes/cartRoutes.js';
 import orderRoutes from './routes/orderRoutes.js';
 //Port setting 
-dotenv.config()
+
 let port  = process.env.PORT || 6000
 let app = express();
 
