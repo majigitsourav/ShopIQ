@@ -1,0 +1,26 @@
+import { v2 as cloudinary } from 'cloudinary';
+import fs from 'fs';
+const uploadOnCloudinary = async(filepath) =>{
+    // Configuration
+    cloudinary.config({ 
+        cloud_name: process.env.CLOUDINARY_NAME, 
+        api_key: process.env.CLOUDINARY_API_KEY, 
+        api_secret: process.env.CLOUDINARY_API_SECRET 
+    });
+    try {
+        if(!filepath){
+        return null;
+    }
+    // Uploading the file to cloudinary
+    const uploadResult = await cloudinary.uploader.upload(filepath);
+    // Deleting the file from the server after uploading to cloudinary
+    fs.unlinkSync(filepath);
+    return uploadResult.secure_url;
+        
+    } catch (error) {
+        fs.unlinkSync(filepath); // Delete the file even if upload fails
+        console.log(error);
+    }
+}
+
+export default uploadOnCloudinary;
