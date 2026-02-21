@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { IoEyeOutline } from "react-icons/io5";
 import { IoEyeOffOutline } from "react-icons/io5";
 import axios from 'axios';
-import { authDataContext } from '../context/authContext';
+import { authDataContext } from '../context/AuthContext';
 import { adminDataContext } from '../context/AdminContext';
 import {  toast } from 'react-toastify';
 const Login = () => {
