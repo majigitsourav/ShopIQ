@@ -3,7 +3,7 @@ import Nav from '../component/Nav'
 import Sidebar from '../component/Sidebar'
 import upload from '../assets/upload_image.jpeg'
 import axios from 'axios'
-import { authDataContext } from '../context/authContext'
+import { authDataContext } from '../context/AuthContext'
 import { toast } from 'react-toastify'
 import Loading from '../component/Loading'
 const Add = () => {
