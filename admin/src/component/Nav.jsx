@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from "react-router-dom";
 import axios from "axios"
 import { useContext } from 'react';
-import { authDataContext } from '../context/authContext';
+import { authDataContext } from '../context/AuthContext';
 import { adminDataContext } from '../context/AdminContext';
 import { toast } from 'react-toastify'
 const Nav = () => {
