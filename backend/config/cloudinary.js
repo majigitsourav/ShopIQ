@@ -22,6 +22,15 @@ import { v2 as cloudinary } from 'cloudinary';
 //         console.log(error);
 //     }
 // }
+
+
+// ✅ Configure Cloudinary (THIS WAS MISSING)
+cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET
+});
+
 const uploadOnCloudinary = async (fileBuffer) => {
     return new Promise((resolve, reject) => {
         cloudinary.uploader.upload_stream(
@@ -35,5 +44,4 @@ const uploadOnCloudinary = async (fileBuffer) => {
 };
 
 export default uploadOnCloudinary;
-
 
