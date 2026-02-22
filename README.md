@@ -1,4 +1,4 @@
-**🛍️AI-Powered E-Commerce Platform(Production-Level MERN Application)**
+****🛍️AI-Powered E-Commerce Platform(Production-Level MERN Application)****
 
 A scalable, production-ready AI-powered E-Commerce Web Application built using the MERN Stack, featuring secure authentication, Razorpay payment integration, Admin Dashboard, and an AI-driven intelligent page navigation assistant.
 
@@ -71,9 +71,9 @@ A scalable, production-ready AI-powered E-Commerce Web Application built using t
 ------------------------------------------------------------------------------------------------------------------------
 🏗️ Project Architecture :
 ------------------------------------------------------------------------------------------------------------------------
-   Frontend (React + Tailwind),
+   Frontend (React + Tailwind)
             ->
-   Backend (Node.js + Express
+   Backend (Node.js + Express)
             ->
    MongoDB Atlas (Cloud Database)
             ->
