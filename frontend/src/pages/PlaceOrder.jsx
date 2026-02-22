@@ -117,7 +117,7 @@ const PlaceOrder = () => {
   return (
     <div className='w-full min-h-screen pb-[120px] md:pb-0 bg-gradient-to-l from-[#141414] to-[#0c2025] flex items-start justify-center flex-col md:flex-row gap-[50px] relative '>
         <div className='lg:w-[50%] w-full flex items-start justify-center pt-[90px] md:pt-[70px] lg:mb-[20px] '>
-            <form action="" onSubmit={onSubmitHandler} className='lg:w-[70%] w-[95%] flex flex-col gap-4'>
+            <form action="" id="orderForm" onSubmit={onSubmitHandler} className='lg:w-[70%] w-[95%] flex flex-col gap-4'>
                 <div className='py-[10px] flex items-center justify-center'>
                     <Title text1={'DELIVERY'} text2={'INFORMATION'}/>
                 </div>
@@ -193,8 +193,9 @@ const PlaceOrder = () => {
         <div className='fixed bottom-0 left-0 w-full bg-[#0c2025] border-t border-[#2e6f77] p-4 md:hidden z-50'>
         <button
             type="submit"
+            form="orderForm"
             className='w-full py-3 text-[18px] bg-[#3bcee8] rounded-xl text-black font-semibold active:scale-95'>
-            PLACE ORDER
+            {loading ? <Loading/> : "PLACE ORDER"}
         </button>
         </div>
 
