@@ -72,15 +72,15 @@ A scalable, production-ready AI-powered E-Commerce Web Application built using t
 🏗️ Project Architecture :
 ------------------------------------------------------------------------------------------------------------------------
    Frontend (React + Tailwind),
-            ↓
+            ->
    Backend (Node.js + Express
-            ↓
+            ->
    MongoDB Atlas (Cloud Database)
-            ↓
+            ->
    JWT + Cookies Authentication
-            ↓
+            ->
    Razorpay Payment Gateway
-            ↓
+            ->
    Firebase Google Authentication
 ------------------------------------------------------------------------------------------------------------------------
 🔐 Security Features
