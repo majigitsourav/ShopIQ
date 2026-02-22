@@ -9,71 +9,71 @@ A scalable, production-ready AI-powered E-Commerce Web Application built using t
 ------------------------------------------------------------------------------------------------------------------------
 💻 Frontend :
 
-  React.js
-  Tailwind CSS
-  Axios
-  React Router DOM
-  Context API
+  React.js,
+  Tailwind CSS,
+  Axios,
+  React Router DOM,
+  Context API,
 ------------------------------------------------------------------------------------------------------------------------
 🖥 Backend :
 ------------------------------------------------------------------------------------------------------------------------
-  Node.js
-  Express.js
-  MongoDB Atlas
-  JWT Authentication
-  Cookie-based Session Handling
+  Node.js,
+  Express.js,
+  MongoDB Atlas,
+  JWT Authentication,
+  Cookie-based Session Handling,
 ------------------------------------------------------------------------------------------------------------------------
 🔐 Authentication :
 ------------------------------------------------------------------------------------------------------------------------
-  JWT Token Authentication
-  HTTP-Only Cookies
-  Google Login (Firebase Authentication)
-  Admin Google Login
+  JWT Token Authentication,
+  HTTP-Only Cookies,
+  Google Login (Firebase Authentication),
+  Admin Google Login,
 ------------------------------------------------------------------------------------------------------------------------
 💳 Payments :
 ------------------------------------------------------------------------------------------------------------------------
-  Razorpay Integration
-  Cash on Delivery (COD)
+  Razorpay Integration,
+  Cash on Delivery (COD),
 ------------------------------------------------------------------------------------------------------------------------
 ☁️ Deployment
 ------------------------------------------------------------------------------------------------------------------------
-  Render (Frontend + Backend)
-  MongoDB Atlas (Cloud Database)
+  Render (Frontend + Backend),
+  MongoDB Atlas (Cloud Database),
 ------------------------------------------------------------------------------------------------------------------------
 ✨ Features :
 ------------------------------------------------------------------------------------------------------------------------
 👤 User Features :
 
-  User Registration & Login
-  Google Login (Firebase)
-  Secure JWT Authentication
-  Browse & Search Products
-  Add to Cart
-  Place Order (Razorpay / COD)
-  Track Order Status
-  AI-Based Page Navigation
+  User Registration & Login,
+  Google Login (Firebase),
+  Secure JWT Authentication,
+  Browse & Search Products,
+  Add to Cart,
+  Place Order (Razorpay / COD),
+  Track Order Status,
+  AI-Based Page Navigation,
 ------------------------------------------------------------------------------------------------------------------------
 🤖 AI Page Navigator :
 ------------------------------------------------------------------------------------------------------------------------
   An integrated AI assistant that:
-  Accepts voice/text instructions
-  Navigates pages automatically
+  Accepts voice/text instructions,
+  Navigates pages automatically,
   Example:
   “Open collection page” → Automatically redirects to collection page
 ------------------------------------------------------------------------------------------------------------------------
 🛠 Admin Panel : 
 ------------------------------------------------------------------------------------------------------------------------
-  Admin Login (Google Authentication)
-  Add New Products
-  Edit Product Details
-  Update Order Status
-  Manage Inventory
+  Admin Login (Google Authentication),
+  Add New Products,
+  Edit Product Details,
+  Update Order Status,
+  Manage Inventory,
 ------------------------------------------------------------------------------------------------------------------------
 🏗️ Project Architecture :
 ------------------------------------------------------------------------------------------------------------------------
-   Frontend (React + Tailwind)
+   Frontend (React + Tailwind),
             ↓
-   Backend (Node.js + Express)
+   Backend (Node.js + Express
             ↓
    MongoDB Atlas (Cloud Database)
             ↓
@@ -85,55 +85,55 @@ A scalable, production-ready AI-powered E-Commerce Web Application built using t
 ------------------------------------------------------------------------------------------------------------------------
 🔐 Security Features
 ------------------------------------------------------------------------------------------------------------------------
-   JWT Token-based authentication
-   HTTP-only cookies
-   Protected Routes (User & Admin)
-   Secure Razorpay Payment Verification
-   Environment variables for sensitive data
+   JWT Token-based authentication,
+   HTTP-only cookies,
+   Protected Routes (User & Admin),
+   Secure Razorpay Payment Verification,
+   Environment variables for sensitive data,
 ------------------------------------------------------------------------------------------------------------------------   
 📊 Database Schema Overview
 ------------------------------------------------------------------------------------------------------------------------
   User Model :
   ------------------------------------------------------------------------------------------------------------------------
-  name
-  email
-  password
-  role (user/admin)
-  cartItems
+  name,
+  email,
+  password,
+  role (user/admin),
+  cartItems,
 ------------------------------------------------------------------------------------------------------------------------
  Product Model :
  ------------------------------------------------------------------------------------------------------------------------
-  name
-  price
-  description
-  category
-  image
-  subcategory
+  name,
+  price,
+  description,
+  category,
+  image,
+  subcategory,
 ------------------------------------------------------------------------------------------------------------------------
 Order Model :
 ------------------------------------------------------------------------------------------------------------------------
-  userId
-  items
-  totalAmount
-  paymentMethod
-  paymentStatus
-  orderStatus
+  userId,
+  items,
+  totalAmount,
+  paymentMethod,
+  paymentStatus,
+  orderStatus,
 -------------------------------------------------------------------------------------------------------------------------  
 🧠 AI Integration
 ------------------------------------------------------------------------------------------------------------------------
-  AI Agent Button
-  Accepts command instructions
-  Dynamic route navigation
-  Improves UX with smart interaction
+  AI Agent Button,
+  Accepts command instructions,
+  Dynamic route navigation,
+  Improves UX with smart interaction,
 -------------------------------------------------------------------------------------------------------------------------  
 🎯 Future Enhancements
 -------------------------------------------------------------------------------------------------------------------------  
-Recommendation System
-Product Review & Rating
-Wishlist Feature
-AI Product Suggestions
-Real-time Notifications
-Dashboard Analytics
+Recommendation System,
+Product Review & Rating,
+Wishlist Feature,
+AI Product Suggestions,
+Real-time Notifications,
+Dashboard Analytics,
 -------------------------------------------------------------------------------------------------------------------------  
 🎥 Demo Video ▶️ Watch Project Demo(User Section):
 -------------------------------------------------------------------------------------------------------------------------  
