@@ -194,7 +194,7 @@ const PlaceOrder = () => {
         <button
             type="submit"
             form="orderForm"
-            className='w-full py-3 text-[18px] bg-[#3bcee8] rounded-xl text-black font-semibold active:scale-95'>
+            className='w-full py-3 text-[18px] bg-[#3bcee8] rounded-xl text-black font-semibold active:scale-95 flex items-center justify-center'>
             {loading ? <Loading/> : "PLACE ORDER"}
         </button>
         </div>
