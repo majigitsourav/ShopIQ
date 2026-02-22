@@ -2,7 +2,7 @@
 
 A scalable, production-ready AI-powered E-Commerce Web Application built using the MERN Stack, featuring secure authentication, Razorpay payment integration, Admin Dashboard, and an AI-driven intelligent page navigation assistant.
 
-🌐 Live Application: https://shopiq-frontend.onrender.com/
+🌐 Live Application: https://shopiq-frontend.onrender.com/ 
 📂 GitHub Repository: https://github.com/majigitsourav/ShopIQ
 ------------------------------------------------------------------------------------------------------------------------
 🚀 Tech Stack :
